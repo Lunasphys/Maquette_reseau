@@ -1,0 +1,142 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/background_index.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+a {
+    font-family: "Glacial Indifference Regular";
+}
+
+.navMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+    color: #fddb3a;
+}
+
+nav.navMenu {
+    top: 14%;
+    left: 78%;
+}
+.navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+/* POLICE */
+@font-face {
+    font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src : url("font/LeagueSpartan-Bold.otf");
+}
+
+@font-face {
+    font-family: 'Glacial Indifference Regular';
+  font-style: normal;
+  font-weight: 600;
+  src : url("font/glacialindifference-regular.otf");
+}
+/* Header cyan 200px that is the width of the windows */
+
+
+h1 {
+    font-family: 'League Spartan';
+  font-size: 40px;
+  color: white;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+h2 {
+    font-family: 'glacial indifference regular';
+  font-size: 30px;
+  color: white;
+    margin-left: 6%;
+}
+
+.enonce {
+    font-family: 'Glacial Indifference Regular';
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 12%;
+    display: block;
+    /* margin: auto; */
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
+
+ul.regle {
+    margin-left: 10%;
+}
